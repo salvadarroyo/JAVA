@@ -1,0 +1,33 @@
+pipeline {
+    agent any
+    stages {
+        stage('Barcelona') {
+            steps {
+                script {
+                    echo 'La poblacion total de Barcelona es 80000.0)'
+                }
+            }
+        }
+        stage('Madrid') {
+            steps {
+                script {
+                    echo 'La poblacion total de Madrid es 800000.0)'
+                }
+            }
+        }
+        stage('Malaga') {
+            steps {
+                script {
+                    echo 'La poblacion total de Malaga es 40000.0)'
+                }
+            }
+        }
+        stage('Sevilla') {
+            steps {
+                script {
+                    echo 'La poblacion total de Sevilla es 64000.0)'
+                }
+            }
+        }
+    }
+}
