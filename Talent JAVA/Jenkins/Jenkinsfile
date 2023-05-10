@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage("Hola"){
       steps{
-        echo "Este es el archivo de clase 10"
+        echo "Este es el archivo de la carpeta Jenkins"
       }
     }
   }
