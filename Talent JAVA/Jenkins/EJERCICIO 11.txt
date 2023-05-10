@@ -1,0 +1,7 @@
+EJERCICIO 11:
+Almacenar en un fichero la información de la calculadora que hicieron previamente
+informando los dos numeros declarados y los calculos de cada una de las operaciones 
+e imprimirlo por consola.
+ENTREGABLES:
+- Codigo
+- Mostrar por consola la información.
