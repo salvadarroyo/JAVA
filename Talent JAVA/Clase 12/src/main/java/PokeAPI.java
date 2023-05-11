@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import org.json.JSONObject;
 
-public class PokeAPI{
+public class PokeAPI {
     public static void main(String[] args) throws Exception{
         Scanner s = new Scanner(System.in);
         System.out.println("¿Qué pokemon quieres buscar?");
