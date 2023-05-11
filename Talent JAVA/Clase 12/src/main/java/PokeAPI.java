@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import org.json.JSONObject;
 
-public class main {
+public class PokeAPI{
     public static void main(String[] args) throws Exception{
         Scanner s = new Scanner(System.in);
         System.out.println("¿Qué pokemon quieres buscar?");
@@ -40,10 +40,9 @@ public class main {
                     String ruta_nombreArchivo = ruta + nombreArchivo;
                     File archivo = new File(ruta_nombreArchivo);
                     FileWriter fw = new FileWriter(archivo);
-                    BufferedWriter bw = new BufferedWriter(fw);
-                    bw.write("Nombre: " + nombre + "\n");
-                    bw.write("Tipo: " + tipo + "\n");
-                    bw.write("Peso: " + peso + "\n");
+                    fw.write("Nombre: " + nombre + "\n");
+                    fw.write("Tipo: " + tipo + "\n");
+                    fw.write("Peso: " + peso + "\n");
                     fw.close();
                 }catch(IOException e){
                     e.printStackTrace();
